@@ -1,5 +1,5 @@
 package chap07
-//論理演算(||_2)
+//論理演算(||_２)
 fun main() {
     val delicious = true
     val cheap = false
