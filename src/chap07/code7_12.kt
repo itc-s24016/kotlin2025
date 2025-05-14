@@ -1,5 +1,5 @@
 package chap07
-//論理演算(!_not)
+//論理演算(not)
 fun main() {
     val a = true
     val b = !a //not a = true じゃなく false に反転する
