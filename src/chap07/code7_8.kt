@@ -1,5 +1,5 @@
 package chap07
-//論理演算(||_3)
+//論理演算(||_３)
 fun main() {
     val delicious = false
     val cheap = true
