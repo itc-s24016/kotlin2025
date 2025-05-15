@@ -13,10 +13,10 @@ fun main() {
     val borderS = 90
 
     val judge = when (score) {
-        in 0..borderC -> "D"
-        in borderC..borderB -> "C"
-        in borderB..borderA -> "B"
-        in borderA..borderS -> "A"
+        in 0..<borderC -> "D"
+        in borderC..<borderB -> "C"
+        in borderB..<borderA -> "B"
+        in borderA..<borderS -> "A"
         else -> "S"
     }
     println("score ${score}: ${judge}")
