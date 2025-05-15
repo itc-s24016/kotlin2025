@@ -7,8 +7,7 @@ fun main() {
 
     for (i in 1..9){
         for (j in 1..9){
-            val ans = String.format("%02d",i*j) //2桁で0埋めする
-            print("${i}×${j}=${ans}  ")
+            print("${i}×${j}=${String.format("%02d",i*j)}  ")//2桁で0埋めする
         }
         println()
     }
