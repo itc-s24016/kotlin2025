@@ -1,6 +1,6 @@
 package chap09
 //valとvarの違い
-/***
+/**
  * val:定数 var:変数
  */
 fun main() {
