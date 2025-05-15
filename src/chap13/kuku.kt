@@ -7,7 +7,7 @@ fun main() {
 
     for (i in 1..9){
         for (j in 1..9){
-            print("${i}×${j}=${String.format("%02d",i*j)}  ")//2桁で0埋めする
+            print("%d×%d=%2d  ".format(i, j, i*j))//0埋めしたいなら %02d にする
         }
         println()
     }
