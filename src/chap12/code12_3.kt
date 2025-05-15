@@ -1,5 +1,5 @@
 package chap12
-//when文の使い方
+//when文の使い方_1
 import kotlin.random.Random
 
 fun main() {
