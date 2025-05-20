@@ -1,5 +1,5 @@
 package chap17
-//リスト(MutableList)
+//リスト(MutableList) リストに追加
 fun main() {
     val a: MutableList<String> = mutableListOf("こんにちは", "Kotlin", "よろしく")
     for ((i, x) in a.withIndex()) {
