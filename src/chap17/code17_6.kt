@@ -1,5 +1,5 @@
 package chap17
-//Array と List
+//リスト(List)
 fun main() {
     val x: IntArray = intArrayOf(1, 2, 3)
     x[0] = 4
