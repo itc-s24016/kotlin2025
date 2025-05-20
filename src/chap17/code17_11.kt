@@ -5,7 +5,7 @@ fun main() {
     val b = mutableListOf(1, 2, 3, 4, 5)
 
     //空のリストを用意したい...
-    val c = mutableListOf()         //これはダメ
+    //val c = mutableListOf()         //これはダメ
     val d = mutableListOf<String>() //こう記述する
 
 }
