@@ -5,7 +5,7 @@ fun main() {
     x[0] = 4
 
     val y: List<Int> = listOf(1, 2, 3)
-    y[0] = 4
+    //y[0] = 4
 
     /*
     共通点：要素数は固定
