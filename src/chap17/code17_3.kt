@@ -8,7 +8,10 @@ fun main() {
     y[0] = 4
 
     /*
-    List は中身を書き換えられずに
+    共通点：要素数は固定
+    Array = 書き換え可能
+    List  = 書き換え負荷
+
     Kotlin: No 'set' operat or method providing array access.
     というエラーが出る
      */
