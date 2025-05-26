@@ -28,7 +28,5 @@ fun main() {
         b -= 200
         c -= 200
     }
-
     println("合計：${(old * a)+(normal * b)+(child * c)}円です")
-
 }
