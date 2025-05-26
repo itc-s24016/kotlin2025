@@ -21,14 +21,16 @@ fun main() {
     if (price > pay){println("足りません")}
     else{
         var nokori = pay - price
+        val otsuri = nokori
 
         for (i in 0..<money.count()){
             var how = 0
             if (nokori >= money[i]){
                 how = nokori / money[i]
                 println("${money[i]}: ${how}枚")
-                nokori -= money[i]
+                nokori -= money[i] * how
             }else{println("${money[i]}: ${how}枚")}
         }
+        println("${otsuri}円のお釣りです")
     }
 }
