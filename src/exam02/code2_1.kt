@@ -1,5 +1,5 @@
 package exam02
-
+//カスタムサイコロ
 import kotlin.random.Random
 
 fun main() {
@@ -23,7 +23,9 @@ fun main() {
     }
 }
 
-class Dice (val name: String = "", var number: Int = 0, var maxNumber: Int = 6){
+class Dice (val name: String = ""){
+    var number: Int = 0
+    var maxNumber: Int = 6
     init{
         println("${name}が選択されました!")
     }
