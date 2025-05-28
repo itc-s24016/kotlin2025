@@ -1,5 +1,5 @@
 package chap25
-//コンストラクタ(プライマリコンストラクタ)
+//コンストラクタ
 fun main() {
     val p = Person("タケシ", 5)
     p.greet()
@@ -25,4 +25,5 @@ class Person constructor(val name: String="名無し", var age: Int = 0) {
     fun greet() {
         println("${name} です ${age} 歳です")
     }
+
 }
