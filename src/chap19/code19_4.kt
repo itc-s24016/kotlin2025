@@ -1,5 +1,5 @@
 package chap19
-//Map(MutableMap) リストに追加削除
+//Map(MutableMap)リストに追加削除
 fun main() {
     val map: MutableMap<String, String> = mutableMapOf(
         "Pen" to "ペン"
