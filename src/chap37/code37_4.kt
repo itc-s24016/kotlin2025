@@ -1,13 +1,11 @@
 package chap37
 //関数オブジェクト(無名関数)
 fun main() {
-
     val p = fun(x: Double, y: Double): Double = x + y
     val m = fun(x: Double, y: Double): Double = x - y
 
     printRandomValuesCalculation(p)
     printRandomValuesCalculation(m)
-
     /*
     val p = ::calculatePlus
     fun calculatePlus(x: Double, y: Double) = x + y
@@ -21,6 +19,5 @@ fun main() {
     fun(x: Double, y: Double) = x + y
                    ▼
               　合体させると
-    val p = fun(x: Double, y: Double): Double = x + y
-    */
+    val p = fun(x: Double, y: Double): Double = x + y  */
 }
