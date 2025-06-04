@@ -9,7 +9,6 @@ fun main() {
     /* いろんな書き方( 結果は同じ )
     ・p4 が最も省略せずに書いた書き方
     ・{ } を使用する際は、必ず retune を書くこと    */
-
     printRandomValuesCalculation(p1)
     printRandomValuesCalculation(p2)
     printRandomValuesCalculation(p3)
